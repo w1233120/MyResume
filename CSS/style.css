@@ -1,0 +1,30 @@
+#container, #top, #center, #footer {
+    margin: 0 auto;
+}
+
+#container, #footer {
+    border: 10px solid black;
+}
+
+#container {
+    width: 1000px;  
+}
+
+#top {
+    display: flex;    
+}
+
+#desc {
+    width: 70%;
+    border: 5px solid red;
+    margin: 10, 10;
+}
+
+#image {
+    display: flex;
+    flex-direction: column;
+    width: 30%;    
+}
+
+
+
